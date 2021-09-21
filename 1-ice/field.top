@@ -1,0 +1,44 @@
+! created by fftool; mix = g
+
+[ defaults ]
+; nbfunc   comb-rule   gen-pairs   fudgeLJ fudgeQQ
+  1        3           yes         0.5     0.5
+
+[ atomtypes ]
+; name  at.nr     mass   charge  ptype  sigma        epsilon
+Hw          1   1.0080   0.4238      A  0.00000e+00  0.00000e+00
+Ow          8  15.9990  -0.8476      A  3.16550e-01  6.50300e-01
+
+[ moleculetype ]
+; name       nrexcl
+SPCE              3
+
+[ atoms ]
+;  nr   type  resnr  residu  atom   cgnr    charge
+    1   Hw        1  SPC     H1        1    0.423800
+    2   Ow        1  SPC     O         2   -0.847600
+    3   Hw        1  SPC     H2        3    0.423800
+
+[ bonds ]
+;  ai    aj   func    b0        kb
+
+[ constraints ]
+;  ai    aj   func    b0
+    2     1      1    0.10000
+    3     2      1    0.10000
+
+[ pairs ]
+;   ai   aj   func
+
+[ angles ]
+;  ai    aj    ak   func    th0        cth
+    1     2     3      1    109.470    317.570
+
+[ dihedrals ]
+;  ai    aj    ak    al   func    coefficients
+
+[ system ]
+simbox
+
+[ molecules ]
+SPCE               200

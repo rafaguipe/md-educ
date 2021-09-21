@@ -1,0 +1,9 @@
+# created by fftool
+tolerance 2.5
+filetype xyz
+output simbox.xyz
+
+structure spce_pack.xyz
+  number 200
+  inside box 1.5000 1.5000 1.5000 24.9244 24.9244 24.9244
+end structure
