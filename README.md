@@ -35,4 +35,6 @@ Which is my set-up: I use the Mac terminal to access HPC and also have Gromacs, 
 We’ll assume you are a newby with no previous knowledge whatsoever about any of the tools hereby mentioned. Therefore we’ll guide you through but in many cases we left references so you deep dive by yourself. 
 
 ## Exercices
+For the exercises you are going to use the Bash Terminal (whatever OS you have) and command line instructions, unless said otherwise.
+Instructions for each exercise you find inside the respective directory.
 
